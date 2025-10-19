@@ -1,11 +1,11 @@
-enum Colors  {
+export enum Color  {
     Diamonds = '♦',
     Clubs = '♣',
     Hearts = '♥',
     Spades = '♠'
 }
 
-enum Numbers {
+export enum Mark {
     Ace = 'A',
     Two = '2',
     Three = '3',

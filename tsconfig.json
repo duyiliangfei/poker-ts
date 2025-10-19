@@ -1,0 +1,14 @@
+{
+  "compilerOptions": { // 编译选项
+    "target": "es2016", // 配置编译目标代码的版本标准
+    "module": "commonjs", // 配置编译目标使用的模块化标准
+    "lib": ["es2016"],
+    "outDir": "./dist", // 设置输出目录
+    "strictNullChecks": true,
+    "moduleResolution": "node", // 模块接续策略
+    "removeComments": true, // 移除注释
+    "esModuleInterop": true,
+    "noEmitOnError": true, // 编译错误时不生成结果
+  },
+  "include": ["./src"] // 只编译src 下的ts文件
+}
