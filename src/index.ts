@@ -1,10 +1,5 @@
 import {Color, Mark} from "./enum";
-
-type Poker = {
-    color: Color
-    mark: Mark
-}
-type Pokers = Poker[];
+import {Pokers} from "./types";
 
 function createPoker(): Pokers {
     const pokers: Pokers = [];
@@ -20,7 +15,7 @@ function createPoker(): Pokers {
     }
     return pokers;
 }
-const pokers: Poker[] = createPoker();
+const pokers: Pokers = createPoker();
 function randomPoker(pokers: Pokers): Pokers {
     return pokers.sort((a, b) => Math.random() - 0.5)
 }
