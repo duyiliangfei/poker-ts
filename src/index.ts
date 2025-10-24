@@ -1,2 +1,4 @@
-import {createPoker, randomPoker} from "./funcs";
-console.log(randomPoker(createPoker()));
+import {print} from "./funcs";
+
+print()
+
